@@ -7,7 +7,7 @@ name = "Cloudreve"
 description.en = "Self-hosted file management and sharing system, supports multiple storage providers"
 description.fr = "Système de gestion et de partage de fichiers auto-hébergé, prenant en charge plusieurs fournisseurs de stockage"
 
-version = "4.5.0~ynh1"
+version = "4.10.1~ynh1"
 
 maintainers = ["eric_G"]
 
@@ -45,10 +45,10 @@ ram.runtime = "50M"
 
     [resources.sources.main]
     in_subdir = false
-    amd64.url = "https://github.com/cloudreve/cloudreve/releases/download/4.5.0/cloudreve_4.5.0_linux_amd64.tar.gz"
-    amd64.sha256 = "8a08e3892cec03c0d22589df4828715e94c9dec1fa762bbe5c9eff993154ccee"
-    arm64.url = "https://github.com/cloudreve/cloudreve/releases/download/4.5.0/cloudreve_4.5.0_linux_arm64.tar.gz"
-    arm64.sha256 = "eba4f8a75d1710c4832c98ed4c39e689b2dd025b8fe36f9b49bcf70592dcd3dd"
+    amd64.url = "https://github.com/cloudreve/cloudreve/releases/download/4.10.1/cloudreve_4.10.1_linux_amd64.tar.gz"
+    amd64.sha256 = "b4d660fa8720afae6fc819110d08725f40e62d0b8ed09c1b5d4cd378be214807"
+    arm64.url = "https://github.com/cloudreve/cloudreve/releases/download/4.10.1/cloudreve_4.10.1_linux_arm64.tar.gz"
+    arm64.sha256 = "a01a8a3c2a0cce8761268ea5fe05cf320ab65c8f35383d17304a607540eedde1"
 
     autoupdate.strategy = "latest_github_release"
     autoupdate.asset.amd64 = ".*_linux_amd64.tar.gz"
