@@ -21,7 +21,7 @@ Self-hosted file management and sharing system, supports multiple storage provid
 
 
 ## Screenshots
-![Screenshot of Cloudreve](./doc/screenshots/example.jpg)
+![Screenshot of Cloudreve](./doc/screenshots/screenshot.png)
 
 ## 📦 Developer info
 
