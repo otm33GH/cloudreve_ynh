@@ -44,6 +44,7 @@ ram.runtime = "500M"
     url = "https://github.com/cloudreve/cloudreve/releases/download/4.14.1/cloudreve_4.14.1_linux_amd64.tar.gz"
     sha256 = "f8060a8b81c5889cae26da971c4334950fac3b97bb6429936371259874eeab82"
     autoupdate.strategy = "latest_github_tag"
+    in_subdir = false
 
     [resources.system_user]
 	allow_email = true
