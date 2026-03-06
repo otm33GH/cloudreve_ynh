@@ -83,4 +83,5 @@ ram.runtime = "500M"
 
     [resources.nodejs]
     version = "24"
-    
+    [resources.database]
+    type = "mysql"
