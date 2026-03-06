@@ -38,13 +38,6 @@ ram.runtime = "500M"
     type = "group"
     default = "visitors"
 
-    [install.doc_storage_driver]
-    ask.en = "Storage driver"
-    ask.fr = "Storage driver"
-    type = "select"
-    choices = ["filesystem", "s3", "in-memory", "azure-blob"]
-    default = "filesystem"
-
 [resources]
     [resources.sources]
 
