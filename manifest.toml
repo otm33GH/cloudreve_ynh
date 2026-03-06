@@ -39,7 +39,6 @@ ram.runtime = "500M"
     default = "visitors"
 
 [resources]
-    [resources.sources]
 
     [resources.sources.main]
     url = "https://github.com/cloudreve/cloudreve/releases/download/4.14.1/cloudreve_4.14.1_linux_amd64.tar.gz"
@@ -60,7 +59,5 @@ ram.runtime = "500M"
 
     [resources.ports]
 
-    [resources.nodejs]
-    version = "24"
     [resources.database]
     type = "mysql"
