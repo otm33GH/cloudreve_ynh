@@ -1,24 +1,16 @@
-Papra est une plateforme minimaliste de gestion et d'archivage de documents. Elle est conçue pour être simple à utiliser et accessible à tous.
+### Self-hosted file management system with multi-cloud support.
+#### :sparkles: Features
 
-## Fonctionnalités
-* **Gestion des documents** : Téléchargez, stockez et gérez vos documents en un seul endroit.
-* **Organisations** : Créez des organisations pour gérer des documents avec votre famille, vos amis ou vos collègues.
-* **Recherche** : Recherchez rapidement des documents grâce à la recherche en texte intégral.
-* **Authentification** : Comptes utilisateurs et système d’authentification.
-* **Mode sombre** : Un thème sombre pour vos sessions nocturnes de gestion de documents.
-* **Design responsive** : Fonctionne sur tous les appareils, des ordinateurs de bureau aux téléphones mobiles.
-* **Open source** : Le projet est open source et gratuit.
-* **Auto-hébergement** : Hébergez votre propre instance de Papra via Docker ou d’autres méthodes.
-* **Tags** : Organisez vos documents à l’aide d’étiquettes.
-* **Import par e-mail** : Envoyez ou transférez des e-mails vers une adresse générée pour importer automatiquement les documents.
-* **Extraction de contenu** : Extraction automatique du texte à partir d’images ou de documents numérisés pour permettre la recherche.
-* **Règles de taggage** : Attribution automatique de tags selon des règles personnalisées.
-* **Import de dossier** : Import automatique des documents depuis un dossier.
-* **API, SDK et webhooks** : Développez vos propres applications au-dessus de Papra.
-* **i18n** : Prise en charge de plusieurs langues.
-* *Bientôt disponible :* **Partage de documents** : Partagez des documents avec d’autres utilisateurs.
-* *Bientôt disponible :* **Demandes de documents** : Générez des liens de téléchargement pour permettre à des tiers d’ajouter des documents.
-* *Peut-être un jour :* **Application mobile** : Accédez et téléchargez des documents depuis téléphone mobile ou tablette.
-* *Peut-être un jour :* **Application desktop** : Accédez et téléchargez des documents depuis votre ordinateur.
-* *Peut-être un jour :* **Extension navigateur** : Téléchargez des documents directement depuis votre navigateur.
-* *Peut-être un jour :* **IA** : Utilisez l’intelligence artificielle pour vous aider à gérer ou à taguer vos documents.
+- :cloud: Support storing files into Local, Remote node, OneDrive, S3 compatible API, Qiniu Kodo, Aliyun OSS, Tencent COS, Huawei Cloud OBS, Kingsoft Cloud KS3, Upyun.
+- :outbox_tray: Upload/Download in directly transmission from client to storage providers.
+- 💾 Integrate with Aria2/qBittorrent to download files in background, use multiple download nodes to share the load.
+- 📚 Compress/Extract/Preview archived files, download files in batch.
+- 💻 WebDAV support covering all storage providers.
+- :zap:Drag&Drop to upload files or folders, with parallel resumable upload support.
+- :card_file_box: Extract media metadata from files, search files by metadata or tags.
+- :family_woman_girl_boy: Multi-users with multi-groups.
+- :link: Create share links for files and folders with expiration date.
+- :eye_speech_bubble: Preview videos, images, audios, ePub files online; edit texts, diagrams, Markdown, images, Office documents online.
+- :art: Customize theme colors, dark mode, PWA application, SPA, i18n.
+- :rocket: All-in-one packaging, with all features out of the box.
+- 🌈 ... ...
