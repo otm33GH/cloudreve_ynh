@@ -4,8 +4,8 @@ packaging_format = 2
 
 id = "cloudreve"
 name = "Cloudreve"
-description.en = "Self-hosted file management and sharing system, supports multiple storage providers"
-description.fr = "Système de gestion et de partage de fichiers auto-hébergé, prenant en charge plusieurs fournisseurs de stockage"
+description.en = "File management and sharing system, supports multiple storage providers"
+description.fr = "Système de gestion et de partage de fichiers, prenant en charge plusieurs fournisseurs de stockage"
 
 version = "4.10.1~ynh1"
 
