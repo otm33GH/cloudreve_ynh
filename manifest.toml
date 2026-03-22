@@ -21,7 +21,7 @@ code = "https://github.com/cloudreve/Cloudreve"
 [integration]
 yunohost = ">= 12.1.39"
 helpers_version = "2.1"
-architectures = "all"
+architectures = ["amd64", "arm64"]
 multi_instance = true
 
 ldap = false
@@ -45,10 +45,10 @@ ram.runtime = "50M"
 
     [resources.sources.main]
     in_subdir = false
-    amd64.url = "https://github.com/cloudreve/cloudreve/releases/download/4.10.1/cloudreve_4.10.1_linux_amd64.tar.gz"
-    amd64.sha256 = "b4d660fa8720afae6fc819110d08725f40e62d0b8ed09c1b5d4cd378be214807"
-    arm64.url = "https://github.com/cloudreve/cloudreve/releases/download/4.10.1/cloudreve_4.10.1_linux_arm64.tar.gz"
-    arm64.sha256 = "a01a8a3c2a0cce8761268ea5fe05cf320ab65c8f35383d17304a607540eedde1"
+    amd64.url = "https://github.com/cloudreve/cloudreve/releases/download/4.15.0/cloudreve_4.15.0_linux_amd64.tar.gz"
+    amd64.sha256 = "a22d0ba44f7276fcbaacdf08dcb2bd0c783a5be6fa98d3d4a93a32b7cfda185a"
+    arm64.url = "https://github.com/cloudreve/cloudreve/releases/download/4.15.0/cloudreve_4.15.0_linux_arm64.tar.gz"
+    arm64.sha256 = "7fcec42286a2ec40f5b6e231f71d8dd8dfc2f64a11ace0937738ed800ec4c365"
 
     autoupdate.strategy = "latest_github_release"
     autoupdate.asset.amd64 = ".*_linux_amd64.tar.gz"
