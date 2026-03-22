@@ -8,7 +8,7 @@ It shall NOT be edited by hand.
   Cloudreve, packaged for YunoHost
 </h1>
 
-Self-hosted file management and sharing system, supports multiple storage providers
+File management and sharing system, supports multiple storage providers
 
 [![🌐 Official app website](https://img.shields.io/badge/Official_app_website-darkgreen?style=for-the-badge)](https://cloudreve.org/)
 [![App Demo](https://img.shields.io/badge/App_Demo-blue?style=for-the-badge)](https://demo.cloudreve.org/session)
