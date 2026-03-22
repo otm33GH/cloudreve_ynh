@@ -7,7 +7,7 @@ name = "Cloudreve"
 description.en = "File management and sharing system, supports multiple storage providers"
 description.fr = "Système de gestion et de partage de fichiers, prenant en charge plusieurs fournisseurs de stockage"
 
-version = "4.10.1~ynh1"
+version = "4.15.0~ynh1"
 
 maintainers = ["eric_G"]
 
