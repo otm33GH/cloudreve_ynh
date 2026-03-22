@@ -1,5 +1,5 @@
 [Unit]
-Description=Cloudreve: Self-hosted file management
+Description=Cloudreve: file management
 Documentation=https://docs.cloudreve.org
 After=network.target
 
