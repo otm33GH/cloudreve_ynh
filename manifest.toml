@@ -7,7 +7,7 @@ name = "Cloudreve"
 description.en = "File management and sharing system, supports multiple storage providers"
 description.fr = "Système de gestion et de partage de fichiers, prenant en charge plusieurs fournisseurs de stockage"
 
-version = "4.15.0~ynh1"
+version = "4.15.0~ynh2"
 
 maintainers = ["eric_G"]
 
@@ -60,7 +60,8 @@ ram.runtime = "150M"
 
     [resources.permissions]
     main.url = "/"
-
+    main.auth_header = false
+    
     [resources.ports]
 
     [resources.apt]
