@@ -12,8 +12,6 @@ ExecStart=__INSTALL_DIR__/cloudreve --conf __INSTALL_DIR__/conf.ini
 Restart=on-abnormal
 RestartSec=5s
 KillMode=mixed
-#StandardOutput=/var/log/__APP__/__APP__.log
-#StandardError=syslog
 
 # Sandboxing options to harden security
 # Details for these options: https://www.freedesktop.org/software/systemd/man/systemd.exec.html
